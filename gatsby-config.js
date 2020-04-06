@@ -1,87 +1,96 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
-    title: `Sky Lite`,
-    siteUrl: `https://yoursite.com`,
-    description: `A lightweight GatsbyJS starter base with Material-UI and MDX Markdown support.`,
+    title: `Peerozo Blog`,
+    siteUrl: `https://peerozo.com`,
+    description: ``,
     components: {
       appbar: {
         position: "sticky",
         links: [
           {
-            title: "Doc 1",
-            url: "/doc1"
+            title: "Home",
+            url: "/",
           },
           {
-            title: "Doc 2",
-            url: "/doc2"
-          }
-        ]
+            title: "About Us",
+            url: "/about",
+          },
+          {
+            title: "FAQs",
+            url: "/faqs",
+          },
+        ],
       },
       footer: {
-        copyright: "yoursite.com",
+        copyright: "peerozo.com",
         columns: [
           {
-            heading: "Column 1",
+            heading: "Find us in",
             links: [
               {
-                title: "Link 1",
-                url: "#"
+                title: "Ranchi",
               },
               {
-                title: "Link 2",
-                url: "#"
+                title: "Kolkata",
               },
               {
-                title: "Link 3",
-                url: "#"
-              }
-            ]
+                title: "New Delhi",
+              },
+              {
+                title: "Bangalore",
+              },
+            ],
           },
           {
-            heading: "Column 2",
+            heading: "Peerozo",
             links: [
               {
-                title: "Link A",
-                url: "#"
+                title: "About Us",
+                url: "/about",
               },
               {
-                title: "Link B",
-                url: "#"
+                title: "Privacy Policy",
+                url: "/privacy",
               },
               {
-                title: "Link C",
-                url: "#"
-              }
-            ]
+                title: "FAQs",
+                url: "/faqs",
+              },
+            ],
           },
           {
-            heading: "Column 3",
+            heading: "Follow us",
             links: [
               {
-                title: "Link x",
-                url: "#"
+                title: "Facebook",
+                url: "https://facebook.com/peerozo",
               },
               {
-                title: "Link y",
-                url: "#"
+                title: "Twitter",
+                url: "https://twitter.com/peerozo",
               },
               {
-                title: "Link z",
-                url: "#"
-              }
-            ]
-          }
-        ]
-      }
+                title: "Instagram",
+                url: "https://instagram.com/peerozo",
+              },
+              {
+                title: "LinkedIn",
+                url: "https://linkedin.com/company/peerozo",
+              },
+            ],
+          },
+        ],
+      },
     },
     templates: {
       home: {
         totalPosts: 3,
-        template: "home"
+        template: "home",
       },
       pages: {
         path: "/content/pages/",
-        template: "page"
+        template: "page",
       },
       posts: {
         path: "/content/posts/",
@@ -94,16 +103,16 @@ module.exports = {
             totalPosts: 3,
             pagination: {
               template: "resultsTag",
-              resultsPerPage: 6
-            }
-          }
+              resultsPerPage: 6,
+            },
+          },
         },
         pagination: {
           template: "resultsAll",
-          resultsPerPage: 6
-        }
-      }
-    }
+          resultsPerPage: 6,
+        },
+      },
+    },
   },
   plugins: [
     { resolve: `gatsby-theme-sky-lite` },
@@ -116,8 +125,8 @@ module.exports = {
         background_color: `rebeccapurple`,
         theme_color: `rebeccapurple`,
         display: `standalone`,
-        icon: `src/images/favicon.png`
-      }
-    }
-  ]
+        icon: `src/images/favicon.png`,
+      },
+    },
+  ],
 };

@@ -3,21 +3,21 @@ import { createMuiTheme } from "@material-ui/core/styles";
 export default createMuiTheme({
   palette: {
     primary: {
-      main: "#663399"
+      main: "#2152f5",
     },
     secondary: {
-      main: "#6902bf"
+      main: "#2152f5",
     },
     type: "light",
     text: {
       primary: "#101012",
-      secondary: "#545456"
+      secondary: "#545456",
     },
     error: {
-      main: "#d32f2f"
+      main: "#d32f2f",
     },
     success: {
-      main: "#28a745"
-    }
-  }
+      main: "#28a745",
+    },
+  },
 });
