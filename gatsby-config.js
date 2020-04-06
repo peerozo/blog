@@ -30,15 +30,19 @@ module.exports = {
             links: [
               {
                 title: "Ranchi",
+                url: "https://peerozo.com",
               },
               {
                 title: "Kolkata",
+                url: "https://peerozo.com",
               },
               {
                 title: "New Delhi",
+                url: "https://peerozo.com",
               },
               {
                 title: "Bangalore",
+                url: "https://peerozo.com",
               },
             ],
           },
