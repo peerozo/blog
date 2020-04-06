@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/vim-labs/gatsby-theme-sky-lite-starter/issues"
   },
-  "homepage": "https://github.com/vim-labs/gatsby-theme-sky-lite-starter#readme"
+  "homepage": "https://github.com/vim-labs/gatsby-theme-sky-lite-starter#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
