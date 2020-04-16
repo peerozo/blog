@@ -1,3 +1,6 @@
+# This blog is made using gatsby.
+
+
 ## Install dependencies
 
 ```bash
